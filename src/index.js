@@ -37,6 +37,11 @@ client.changeTempInvites = (tempInvites) => {
 client.changeCache = (cache) => {
   return (cache = client.cache);
 };
+// Bu log kanalımızı belirtmek için var.
+client.log;
+
+// Offf ya glob kullanıyorum, türklerden farklıyım en azından
+// fs yapıp teker teker tüm folderleri for döngüsünden almıyorum.
 
 /* Require all commands & events within folder */
 glob("commands/**/*.js", function (err, files) {

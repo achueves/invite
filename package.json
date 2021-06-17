@@ -1,0 +1,27 @@
+{
+  "name": "invite",
+  "description": "Github içerisinde kullanabileceğiniz JSON tabanlı anlaşılır bir invite manager botu. <br>\r Genel bakış: **[TODO](#Todo) - [Özellikler](#Özellikler) - [Nasıl kurulur](#Kurulum) - [Dipnot](#Dipnot)**",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "cd src && nodemon .",
+    "start": "cd src && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vexdy/invite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vexdy/invite/issues"
+  },
+  "homepage": "https://github.com/vexdy/invite#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "enmap": "^5.8.5",
+    "glob": "^7.1.7"
+  }
+}

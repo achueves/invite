@@ -20,9 +20,8 @@ Bildiğiniz diğer invite managerlerin özelliklerinden farklı olanları yazaca
 
 Sadece config dosyalarında belirtilen şeyleri kendi sunucunuza göre hazırlayın. <br>
 Hazırladıktan sonra dosyaların bulunduğu klasörde bir terminal (cmd) açın. <br>
-CMDnizi veya terminalinizi açtıktan sonra `cd src` yazarak dosyaya girin. <br>
 Açtıktan sonra şu komutu girerek modülleri indirin: `npm install` <br>
-Modülleri indirdikten sonra botu başlatmak için `node index.js` yazabilirsiniz.
+Modülleri indirdikten sonra botu başlatmak için `npm start` yazabilirsiniz.
 
 ### Dipnot
 

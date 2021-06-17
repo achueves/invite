@@ -19,7 +19,7 @@ Bildiğiniz diğer invite managerlerin özelliklerinden farklı olanları yazaca
 ### Kurulum
 
 Sadece config dosyalarında belirtilen şeyleri kendi sunucunuza göre hazırlayın. <br>
-Hazırladıktan sonra dosyaların bulunduğu klasörde bir terminal (cmd) açın. <br>
+Hazırladıktan sonra ana dosyaların bulunduğu (src klasörünün göründüğü) klasörde bir terminal (cmd) açın. <br>
 Açtıktan sonra şu komutu girerek modülleri indirin: `npm install` <br>
 Modülleri indirdikten sonra botu başlatmak için `npm start` yazabilirsiniz.
 

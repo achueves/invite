@@ -12,9 +12,9 @@ Bildiğiniz diğer invite managerlerin özelliklerinden farklı olanları yazaca
 - Temporary (geçici) inviteleri cacheleme
 - Tek kullanımlık inviteleri cacheleme
 - Değiştirilebilir gün ile gelen davetin sahte olup olmadığını belirleme
-- Saniyelik database yenilenmesi
-- Çökme durumunda databaseyi kayıt eder
-- Tamamen senkronize bir şekilde çalışır
+- Saniyelik database kayıt edilmesi
+- Çökme durumunda databasenin kayıt edilmesi
+- Senkronize bir şekilde çalışması
 
 ### Kurulum
 

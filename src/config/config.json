@@ -1,5 +1,6 @@
 {
-  "token": "",
-  "prefix": "",
-  "guild": ""
+  "token": "BOT TOKENINIZI GIRIN.",
+  "prefix": "BOT PREFIXINIZI (komutları çalıştırmak için önek) GIRIN.",
+  "guild": "GUILD (sunucu) IDNIZI GIRIN.",
+  "channel": "GIRISLERI LOGLAYACAGINIZ KANAL IDSINI GIRIN."
 }

@@ -10,8 +10,7 @@ lerna-debug.log*
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Tests and configuration
-test-src/
-config-src/
+test
 
 # Runtime data
 pids

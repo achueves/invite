@@ -7,7 +7,7 @@ const fs = require("fs");
 /* Needed */
 
 // Tüm datayı nerede tutacağımızın göstergesi olan path.
-const databasePath = "./database/db.json";
+const databasePath = "./database/invites.json";
 const client = new Discord.Client();
 const config = require("./config/config.json");
 
@@ -72,19 +72,19 @@ glob("events/**/*.js", function (err, files) {
 
 // Kesinlike datanın databaseye kayıt olduğundan emin olmak için.
 process.on("beforeExit", (code) => {
-  fs.writeFileSync("./database.json", JSON.stringify(cache, null, 2));
+  fs.writeFileSync(databasePath, JSON.stringify(cache, null, 2));
   console.log("Process beforeExit event with code: ", code);
 });
 
 process.on("unhandledRejection", (err) => {
   console.log("\n" + err.stack);
-  fs.writeFileSync("./database.json", JSON.stringify(cache, null, 2));
+  fs.writeFileSync(databasePath, JSON.stringify(cache, null, 2));
   process.exit(1);
 });
 
 process.on("uncaughtException", (err) => {
   console.log("\n" + err.stack);
-  fs.writeFileSync("./database.json", JSON.stringify(cache, null, 2));
+  fs.writeFileSync(databasePath, JSON.stringify(cache, null, 2));
   process.exit(1);
 });
 

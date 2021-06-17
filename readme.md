@@ -44,4 +44,4 @@ NoSQL (not only SQL) olduğundan JSON databasenin yaptığı görevin aynısın�
 - [ ] Invite whitelist (eğer aktif edilirse)
 - [ ] Invite database reset
   - Aslında database klasörünün içindekilerini `[]` yaparak resetleyebilirsiniz ama bunu bir komutla da yapabiliriz.
-- [ ] Config ile gelen giriş ve çıkış mesajları
+- [ ] Config ile ayarlanılabilir giriş ve çıkış mesajları

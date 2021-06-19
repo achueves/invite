@@ -84,7 +84,7 @@ module.exports = async (client, member) => {
         )
         .setColor(member.guild.me.roles.highest.color || "#9abdfe")
         .setFooter(
-          "coreLogger",
+          "inviteLogger",
           client.user.displayAvatarURL({ size: 4096, dynamic: true })
         )
         .setTimestamp();
